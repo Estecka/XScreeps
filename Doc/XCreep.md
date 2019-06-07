@@ -14,6 +14,7 @@ Transfers as much of of a creep's carried energy as possible, into a structure `
 
 #### Return value
 Any error code returned by `creep.transfer`, or : 
+
 | Constant					| value 	| description	
 | :---						|	-----:	| :---			
 | OK		    			| 0			| Some energy will be transferred to the target
@@ -28,10 +29,11 @@ Due to creeps not being able to transfer multiple resources at once, it may actu
 
 #### Return value
 Any error code returned by `creep.transfer`, or : 
+
 | Constant					| value 	| description	
 | :---						|	-----:	| :---			
 | OK		    			| 0			| Some resources will be transferred to the target
-| ERR_NOT_ENOUGH_RESOURCES	| -6		| The creep doen't carry any resource, `filter` is empty, or the creep doesn't carry any of the resources defined in `filter`
+| ERR_NOT_ENOUGH_RESOURCES	| -6		| The creep doesn't carry any resource, `filter` is empty, or the creep doesn't carry any of the resources defined in `filter`
 | ERR_FULL	    			| -8		| The target is full
 
 
@@ -45,10 +47,11 @@ Withdraw as much of the resource `type` as possible from the `target`'s `store`,
 
 #### Return value
 Any error code returned by `creep.withdraw`, or : 
+
 | Constant					| value 	| description	
 | :---						|	-----:	| :---			
-| OK		    			| 0			| Some resources will be withdrawn the target
-| ERR_NOT_ENOUGH_RESOURCES	| -6		| The target doesn't containe the specified resource `type`.
+| OK		    			| 0			| Some resources will be withdrawn from the target
+| ERR_NOT_ENOUGH_RESOURCES	| -6		| The target doesn't contain any of the specified resource `type`.
 | ERR_FULL	    			| -8		| The creep is full
 
 
@@ -60,8 +63,9 @@ Due to creeps being unable to withdraw multiple resource types at once, it may t
 
 #### Return value
 Any error code returned by `creep.withdraw`, or : 
+
 | Constant					| value 	| description	
 | :---						|	-----:	| :---			
-| OK		    			| 0			| Some resources will be withdrawn the target
-| ERR_NOT_ENOUGH_RESOURCES	| -6		| The target doesn't containe the specified resource `type`.
+| OK		    			| 0			| Some resources will be withdrawn from the target
+| ERR_NOT_ENOUGH_RESOURCES	| -6		| The target doesn't contain any of the specified resource `type`.
 | ERR_FULL	    			| -8		| The creep is full

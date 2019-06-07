@@ -5,6 +5,7 @@
 Draws the icon for a resource's `type`  at position (`x`,`y`), and the given `size`
 
 #### Return value
+
 | Constant					| value 	| description	
 | :---						|	-----:	| :---			
 | OK		    			| 0			| 

@@ -11,6 +11,7 @@ Create a creep using any available Spawn in the room.
 
 #### Return value
 Any error code returned by `room.createCreep`, or : 
+
 | Constant					| value 	| description	
 | :---						|	-----:	| :---			
 | OK		    			| 0			| A spawn has been found 

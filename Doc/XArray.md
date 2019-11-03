@@ -3,7 +3,7 @@
 ## ◼ Array.prototype.remove (value)
 Removes the first instance of `value` from the array.
 ```javascript
-let array = [1, 0, 1;
+let array = [1, 0, 1];
 array.remove(1);
 console.log (array); // [0, 1]
 ```

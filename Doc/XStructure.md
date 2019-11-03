@@ -1,6 +1,6 @@
 # XStructure
 
-## ● StructureLink.prototype.store
+## ● StructureLab.prototype.store
 Lets read the Lab's `.mineralAmount` via `.store[.mineralType]`.  
 **The labs energy amount cannot yet be accessed through the store.** This is a planned feature.
 ## ● StructureLink.prototype.store
